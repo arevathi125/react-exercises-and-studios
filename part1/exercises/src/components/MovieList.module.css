@@ -1,7 +1,11 @@
 .movieText {
-   color: black;
+   color: rebeccapurple;
+   text-align: left;
+   font-size: large;
+   border: 0px solid;
+   background-color: aquamarine;
 }
 
 .movieHeading {
-   color: black;
-}
+  text-align: left;
+ }

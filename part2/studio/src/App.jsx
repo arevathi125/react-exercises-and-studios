@@ -1,3 +1,4 @@
+import React from 'react';
 import "./App.css";
 import RateARecipe from "./components/RateARecipe";
 import Button from "./components/Button";
@@ -9,10 +10,10 @@ import RecipeName from "./components/RecipeName";
 export default function App() {
   return (
     <>
-      <RecipeImage />
       <RecipeName />
-      <RateARecipe rating={4} />
-      <Button saveButton={true} />
+      <RecipeImage />
+      <RateARecipe rating={5} />
+      <Button saveButton={false} />
       <AuthorInfo />
       <IngredientList />
     </>

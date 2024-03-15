@@ -13,6 +13,21 @@
        "heavy cream",
        "milk"
      ]
-   }
+   },
+   {
+    "name": "Swedish Meatball Recipe",
+    "author": "Stephanie Melchione",
+    "description": "I'll just go ahead and say it: I do believe that these Swedish Meatballs are quite possibly the best",
+    "website": "https://thecozycook.com/swedish-meatball-recipe/",
+    "recipeImage": "https://thecozycook.com/wp-content/uploads/2022/08/Swedish-Meatballs-1.jpg",
+    "authorImage": "https://thecozycook.com/wp-content/uploads/2021/11/The-Cozy-Cook.jpg",
+    "ingredients": [
+      "Yellow Onion",
+      "Olive oil",
+      "Egg",
+      "Beef or Pork",
+      "milk"
+    ]
+  }
  ]
  

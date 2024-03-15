@@ -22,6 +22,11 @@
    margin: 10px;
  }
  
+ #clickedButton:hover {
+  background-color: firebrick;
+  color: white;
+} 
+
  .authorImage {
    border-radius: 50%;
    width: 60px;
@@ -33,4 +38,5 @@
    width: 20%;
    display: block;
    margin: 10px;
+   /* border: 1px solid red; */
  }

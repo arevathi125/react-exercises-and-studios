@@ -5,14 +5,16 @@ export default function MyProjects() {
    const [index, setIndex] = useState(0);
 
   function handleClick() {
-   if (index < data.projects.length-1)
-   {
-      setIndex(index + 1);
-   }
-   else
-   {
-      setIndex(0);
-   }
+  //  if (index < data.projects.length-1)
+  //  {
+  //     setIndex(index + 1);
+  //  }
+  //  else
+  //  {
+  //     setIndex(0);
+    //  }
+    
+    return index < projects.length - 1 ? setIndex(index + 1) : setIndex(0);
   }
 
   let projects = data.projects;

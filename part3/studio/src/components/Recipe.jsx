@@ -1,13 +1,13 @@
 import { useState } from 'react';
 
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://www.indianhealthyrecipes.com/";
+   let authorPhoto = "https://t3.ftcdn.net/jpg/01/31/26/28/360_F_131262859_CZALT0OyZYSXD3cekthMmJuJQXol8uRA.jpg";
+   let authorName = "Revathi";
 
    return (
       <div>
-         <img src={authorPhoto} alt = "" style={{objectFit: "contain", borderRadius: "50%"}} />
+         <img src={authorPhoto} alt = "Author Photo" style={{objectFit: "contain", borderRadius: "50%"}} />
          <div>
             <h3>{authorName}</h3>
             <a href={authorLink}></a> 
@@ -17,7 +17,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ["Wheat flour", "Oil", "Salt", "Water","Roller"];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -36,8 +36,8 @@ const RecipeDescription = () => {
    return (
       <div> 
          <div>
-            <h1></h1>
-            <p></p>
+            <h1>Wheat Fluffy Poori</h1>
+            <p>Puffed Poori will soon be everyone's favourite at your home! Poori or Puri is a Popular Indian Breakfast immensely popular all over india</p>
          </div>
          <div className="recipePhotoBlock">
             <RecipeIngredients />
@@ -49,7 +49,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://rakskitchen.net/wp-content/uploads/2012/06/7419192444_67008fc1c2_z.jpg"/>
    );
 }
 
